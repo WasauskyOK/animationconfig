@@ -1,0 +1,297 @@
+/* 
+# -> id
+. -> class
+img -> img
+ */
+ /*
+ :root{
+  --anchocuadrofooter:250px;
+  --altocuadrofoot:50px;
+  --bordecuadrofooter:5px;
+  --formacuadrofooter:double;
+}
+*/
+:root{
+  --anchocuadrofooter:0px;
+  --altocuadrofoot:450px;
+  --bordecuadrofooter:5px;
+  --formacuadrofooter:double;
+}
+ *{
+   margin: 0;
+   padding: 0;
+ }
+body{
+  overflow: hidden;  
+  /*
+  animation: rodarfoterodd 4s infinite  linear;
+*/
+} 
+.bienvenidafooter{
+
+  background-color: green;
+  position: relative; 
+  margin-top: 45vh;
+  -webkit-perspective: 900;
+  transform-style: preserve-3d;
+  animation: rodarfoterodd 259ms infinite  linear;
+
+}
+@keyframes rodarfoterodd{
+  to{
+    transform: rotateZ(1turn);
+  }
+}
+
+/*
+@keyframes rodarfoter{
+  to{
+    transform: rotateZ(1turn) rotateX(360deg);
+  }
+}
+@keyframes rodarfoterodd{
+  to{
+    transform: rotateZ(-2turn) rotateX(360deg);
+    
+  }
+}
+*/
+.bienvenidafooter div:nth-child(1){
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+width: var(--anchocuadrofooter);
+height:var(--altocuadrofoot);
+border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  }
+.bienvenidafooter div:nth-child(2){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(10deg);
+  width: var(--anchocuadrofooter);
+height:var(--altocuadrofoot);
+border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(3){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(20deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(4){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(30deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(5){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(40deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(6){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(50deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(7){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(60deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(8){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(70deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(9){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(80deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(10){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(90deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(11){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(100deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(12){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(110deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+
+.bienvenidafooter div:nth-child(13){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(120deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(14){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(130deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(15){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(140deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(16){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(150deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(17){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(160deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+.bienvenidafooter div:nth-child(18){
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateZ(170deg);
+  width: var(--anchocuadrofooter);
+  height:var(--altocuadrofoot);
+  border:var(--bordecuadrofooter) var(--formacuadrofooter)  red;
+  
+}
+
+.Centro{
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+}

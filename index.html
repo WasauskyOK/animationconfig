@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Hola</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e92fa48c98.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container d-flex flex-column align-items-center">
+	<button class="btn btn-primary mt-2" onclick="LoadChanges()">Guardar cambios</button>
+	<div class="col-sm-12 d-flex justify-content-center mt-4">
+		<input type="text" name="alto" placeholder="Ingresa el alto" class="form-control mr-2" id="alto" >
+		<input type="text" name="ancho" placeholder="Ingresa el ancho" class="form-control mr-2" id="ancho">
+		<select name="seleccionar" id="select"  class="form-control" onchange="ChangeValue(event)">
+			<option value="" selected disabled>Seleccione</option>
+			<option value="dotted">dotted</option>
+			<option value="dashed">dashed</option>
+			<option value="solid">solid</option>
+			<option value="double">double</option>
+		</select>
+	
+	
+</div>
+	<div class="bienvenidafooter">
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+		<div class="cuadrado"></div>
+	</div>
+	<script src="./js/configuration.js"></script>
+</body>
+</html>
